@@ -1,0 +1,25 @@
+.App-line-text{
+  position: relative;
+  color:#ff5155;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Gotham', sans-serif;
+}
+
+.App-line-text .line{
+  position: relative;
+  bottom: 50%;
+  border-bottom :1px solid #ff5155;
+  flex:1
+}
+
+
+.App-line-text .text{
+  margin: 0px 10px;
+  font-size: 18px;
+}
+
+.App-line-text.wide-screen .text{
+  font-size: 26px;
+}

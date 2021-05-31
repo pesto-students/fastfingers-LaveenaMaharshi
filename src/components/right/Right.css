@@ -1,0 +1,31 @@
+.App-right__panel{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 30px;
+  color: #ff5155;
+  font-family: 'lasercorpsgrad', sans-serif;
+  text-align: start;
+  /* max-width: 400px; */
+}
+
+.App-right__panel span {
+  margin-top: 30px;
+}
+
+.App-right__panel.wide-screen span{
+  margin-top: 0px;
+}
+
+.App-right__panel.wide-screen {
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+  font-size: unset;
+  font-size: 56px;
+
+  /* max-width: 400px; */
+}

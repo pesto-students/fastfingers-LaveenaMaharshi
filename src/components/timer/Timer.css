@@ -1,0 +1,22 @@
+.App-Timer{
+  position: relative;
+}
+
+
+.timer_count{
+  color: white;
+  font-size: 57px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+@keyframes time-circle{ 
+  to{
+    stroke-dashoffset: 0;
+  }
+}

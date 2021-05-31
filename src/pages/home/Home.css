@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.App-Home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 362px;
+}
+
+
+.App-Home.wide-screen{
+  max-width: 662px;
+}
+
+.App-name{
+  color: #ff5155;
+  font-size: 31px;
+
+  margin-top:20px;
+  font-family: 'Monoton', cursive;
+  letter-spacing: 1px;
+}
+
+
+.App-Home.wide-screen .App-name{
+  font-size: 61px;
+}
+
+
+.App-tag{
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+}
+
+
+.App-Home.wide-screen .App-tag {
+  margin-bottom: 60px;
+}
+
+
+.App-Home .App-logo{
+  width: 180px;
+}
+
+.App-Home.wide-screen .App-logo {
+  width:unset;
+}

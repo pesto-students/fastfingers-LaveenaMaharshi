@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ResizeContextProvider from './contexts/resizeContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ResizeContextProvider>
+      <App />
+    </ResizeContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

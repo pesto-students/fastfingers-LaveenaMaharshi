@@ -1,0 +1,31 @@
+.App-Scoreboard{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #ff5155;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 30px;
+  height: 100%;
+}
+
+.App-Scoreboard .scoreboard-title{
+  color: #ff5155;
+  font-size: 36px;
+  margin: 20px 0px;
+}
+
+
+.scoreboard-score{
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreboard-best{
+  font-size: 11px;
+  color: #ff5155;
+}
+
+.scoreboard-data{
+  color: white;
+  margin-bottom: 12px;
+}

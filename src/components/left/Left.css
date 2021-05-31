@@ -1,0 +1,26 @@
+.App-left__panel{
+  width:100%;
+  max-width: unset;
+  flex-direction: row;
+  display: flex;
+}
+
+
+.App-left__panel.wide-screen{
+  max-width: 300px;
+  flex-direction: column;
+  width: unset;
+  height: 100%;
+}
+
+.game-details{
+  margin-bottom: 30px;
+}
+
+.game-end{
+  margin-top: 30px;;
+}
+
+.score-card-container{
+  flex:1;
+}

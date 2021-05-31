@@ -1,0 +1,37 @@
+.App-Input{
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+  background-color: rgba(255,255,255,0.59);
+  padding: 0px 10px;
+  width: 100%;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-family: 'breamcatcher', sans-serif;
+  font-size: 25px;
+  color: #032228;
+  border: 1px solid transparent;
+}
+
+
+.App-Input.wide-screen{
+  height: 90px;
+  font-size: 35px;
+  padding: 0px 25px;
+  margin-bottom: 25px;
+}
+
+.App-Input:hover{
+  border: 1px solid white;
+  transition: all 0.3s;
+  box-shadow: 5px 5px 5px 0px rgb(255, 255, 255);
+}
+
+.App-Input:focus {
+  /* border: 1px solid red;
+   transition: all 0.3s;
+   box-shadow: 5px 5px 5px 0px rgb(255, 0, 0); */
+}
